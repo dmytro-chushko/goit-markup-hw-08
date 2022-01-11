@@ -1,0 +1,32 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $contrast-bgc;
+
+  &__container {
+    @media screen and (max-width: 1199px) {
+      text-align: center;
+    }
+  }
+
+  &__logo {
+    display: inline-block;
+    padding-bottom: 20px;
+
+    color: $contrast-text-color;
+  }
+
+  @media screen and (min-width: 768px) {
+    &__container {
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: space-around;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    &__container {
+      justify-content: normal;
+    }
+  }
+}

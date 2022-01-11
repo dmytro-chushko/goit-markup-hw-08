@@ -1,0 +1,31 @@
+.occupation {
+  display: flex;
+  justify-content: space-between;
+  
+  &__section {
+    @media screen and (max-width: 1199px) {
+      display: none;
+    }
+  }
+
+  &__item {
+    position: relative;
+  }
+
+  &__overlay {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+
+    text-align: center;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $contrast-text-color;
+    background-color: rgba(47, 48, 58, 0.8);
+    font-weight: 700;
+  }
+}
