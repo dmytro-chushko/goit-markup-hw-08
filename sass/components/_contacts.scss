@@ -38,6 +38,7 @@
 
     &__item+&__item>&__link {
       font-size: 34px;
+      color: $accent-text-color;
 
       @media screen and (max-width: 479px) {
         font-size: 27px;
