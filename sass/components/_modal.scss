@@ -25,7 +25,11 @@
   }
 
   @media screen and (min-width: 600px) and (orientation: landscape) and (max-width: 915px) {
-    top: 90%;
+    top: 115%;
+
+    @media screen and (min-width: 700px) {
+      top: 90%
+    }
   }
 
   &__title {

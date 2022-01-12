@@ -1,5 +1,7 @@
 .site-nav {
-  // margin-left: 93px; w1200
+  @media screen and (max-width: 767px) {
+    margin-bottom: 32px;
+  }
 
   &__item {
     position: relative;

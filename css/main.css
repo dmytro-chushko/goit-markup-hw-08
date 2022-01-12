@@ -320,6 +320,11 @@ ul {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .site-nav {
+    margin-bottom: 32px;
+  }
+}
 .site-nav__item {
   position: relative;
 }
@@ -1109,6 +1114,11 @@ ul {
   }
 }
 @media screen and (min-width: 600px) and (orientation: landscape) and (max-width: 915px) {
+  .modal {
+    top: 115%;
+  }
+}
+@media screen and (min-width: 600px) and (orientation: landscape) and (max-width: 915px) and (min-width: 700px) {
   .modal {
     top: 90%;
   }
