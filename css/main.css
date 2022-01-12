@@ -116,7 +116,7 @@ ul {
 }
 .section__title {
   margin-bottom: 30px;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.17;
   text-align: center;
 }
@@ -127,6 +127,7 @@ ul {
   }
   .section__title {
     margin-bottom: 50px;
+    font-size: 36px;
   }
 }
 
@@ -486,6 +487,7 @@ ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 370px;
 }
 @media screen and (max-width: 479px), (min-width: 768px) {
   .social-links {
@@ -569,7 +571,7 @@ ul {
   text-transform: uppercase;
   color: #ffffff;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
   .hero__title {
     width: 360px;
   }
@@ -666,7 +668,7 @@ ul {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 767px) {
   .team__item:not(:last-child) {
     margin-bottom: 30px;
   }
@@ -1103,7 +1105,12 @@ ul {
             transform: translate(-50%, -50%) scale(1);
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 600px) {
+  .modal {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
   .modal {
     width: 528px;
   }
@@ -1220,16 +1227,6 @@ ul {
 .order-form__input:focus + .order-form__label-icon {
   color: #2196f3;
 }
-@media screen and (min-width: 600px) {
-  .order-form__input {
-    width: 370px;
-  }
-}
-@media screen and (min-width: 900px) {
-  .order-form__input {
-    width: 448px;
-  }
-}
 .order-form__comments {
   display: block;
   width: 100%;
@@ -1257,16 +1254,6 @@ ul {
 }
 .order-form__comments::placeholder {
   color: rgba(117, 117, 117, 0.5);
-}
-@media screen and (min-width: 600px) {
-  .order-form__comments {
-    width: 370px;
-  }
-}
-@media screen and (min-width: 900px) {
-  .order-form__comments {
-    width: 448px;
-  }
 }
 .order-form__input:focus, .order-form__comments:focus {
   border-color: #2196f3;

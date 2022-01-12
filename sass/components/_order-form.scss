@@ -48,13 +48,13 @@
       color: $accent-bgc;
     }
 
-    @media screen and (min-width: 600px) {
-      width: 370px;
-    }
+    // @media screen and (min-width: 600px) {
+    //   width: 370px;
+    // }
 
-    @media screen and (min-width: 900px) {
-      width: 448px;
-    }
+    // @media screen and (min-width: 900px) {
+    //   width: 448px;
+    // }
   }
 
   &__comments {
@@ -75,13 +75,13 @@
       color: rgba(117, 117, 117, 0.5);
     }
 
-    @media screen and (min-width: 600px) {
-      width: 370px;
-    }
+    // @media screen and (min-width: 600px) {
+    //   width: 370px;
+    // }
 
-    @media screen and (min-width: 900px) {
-      width: 448px;
-    }
+    // @media screen and (min-width: 900px) {
+    //   width: 448px;
+    // }
   }
 
   &__input:focus,
@@ -135,4 +135,12 @@
   &__checkbox-link {
     color: $accent-text-color;
   }
+
+  // @media screen and (min-width: 600px) {
+  //   width: 450px;
+  // }
+
+  // @media screen and (min-width: 1200px) {
+  //   width: 528px;
+  // }
 }

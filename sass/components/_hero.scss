@@ -64,7 +64,7 @@
     text-transform: uppercase;
     color: $contrast-text-color;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 480px) {
       width: 360px;
     }
 
